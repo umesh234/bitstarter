@@ -3,10 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>my first bitstarter</title>
-    <link type="text/css" rel="stylesheet"
-	  href = "https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-2.3.2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no.-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttions.css">
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,600italic" rel="stylesheet" type ="test/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400itlic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
     <style type="text/css">
+
+      /* Large desktop */
+      @media (min-width: 980 px) {
       body {
+      padding-top: 60px;
+      }
+      .linediv-l {
+      border-right: 1px white solid;
+      }
+      .linediv-r {
+      border-left: 1px white solid;
+      }
+      }
+
+
+    body {
       padding-top: 20px;
       padding-bottom: 40px;
       }
@@ -58,17 +79,17 @@
 	  About
 	</div>
       </div>
-      <div class="row heading">
+      <div class="row-fluid heading">
 	<div class="span12">
 	  <h1> Bitstarter Title</h1>
 	</div>
       </div>
-      <div class="row subheading">
+      <div class="row-fluid subheading">
 	<div class="span12">
 	  <p class="lead"> This is my first bitstarter project.</p>
 	</div>
       </div>
-      <div class="row pitch">
+      <div class="row-fluid pitch">
 	<div class="span6 video">
 	  Video
 	</div>
@@ -84,26 +105,50 @@
 	  </div>
 	</div>
       </div>
-      <div class="row section1">
+      <div class="row-fluid section1">
 	<div class="span12">
 	  Marketing Section 1
 	</div>
       </div>
-      <div class="row section2">
+      <div class="row-fluid section2">
 	<div class="span12">
 	  Marketing Section 2 
 	</div>
       </div>
-      <div class="row faq">
-	<div class="span12">
-	  FAQ
+      <div class="row-fluid faq">
+	<div class="span10 offset1">
+	  <h3>FAQ</h3>
+	  <div class="accordion" id="accordion2">
+	    <div class="accordion-group">
+	      <div class="accordion-heading">
+		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+		  What does FAQ Stand for ?
+		</a>
+	      </div>
+	      <div id="collapseOne" class="accordion-body collapse">
+		<div class="accordion-timer">
+		  Frequently asked Question
+		</div>
+	      </div>
+	    </div>
+	    <div class="accordion-heading">
+              <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                What is a Frequently asked questions 
+              </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+              <div class="accordion-timer">
+                A question which is commonly asked by users 
+              </div>
+            </div>
+          </div>
 	</div>
       </div>
-      <div class="row footer">
+
+      <div class="row-fluid footer">
 	<div class="span12">
-	  Footer
+	  <p> This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a> ,without all the cruft that would otherwise be put at the bottom of the page 
 	</div>
       </div>
-    </div>
   </body>
 </html>
